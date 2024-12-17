@@ -9,6 +9,7 @@ VENDOR_PATH := vendor/huawei/mozart/proprietary
 # Blobs
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/libstlport.so:/system/lib/libstlport.so \
+    $(VENDOR_PATH)/lib/hw/lights.hi3635.so:/system/lib/hw/lights.hi3635.so \
     $(VENDOR_PATH)/lib/hw/gralloc.hi3635.so:/system/lib/hw/gralloc.hi3635.so \
     $(VENDOR_PATH)/lib/hw/memtrack.hi3635.so:/system/lib/hw/memtrack.hi3635.so \
     $(VENDOR_PATH)/lib/liboeminfo_jni.so:/system/lib/liboeminfo_jni.so \
@@ -20,6 +21,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/liboeminfo.so:/system/lib/liboeminfo.so \
     $(VENDOR_PATH)/lib/lib_oeminfo_interface.so:/system/lib/lib_oeminfo_interface.so \
     $(VENDOR_PATH)/lib64/libstlport.so:/system/lib64/libstlport.so \
+    $(VENDOR_PATH)/lib64/hw/lights.hi3635.so:/system/lib64/hw/lights.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/gralloc.hi3635.so:/system/lib64/hw/gralloc.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/memtrack.hi3635.so:/system/lib64/hw/memtrack.hi3635.so \
     $(VENDOR_PATH)/lib64/liboeminfo_jni.so:/system/lib64/liboeminfo_jni.so \
